@@ -92,3 +92,33 @@ button::-moz-focus-inner {
   border: 0
 }
 /* END Reset Styles */
+html{
+  overflow-y: auto;
+}
+
+body{
+    background: url('../img/kraft_paper.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#wrapper{
+  padding-top: 40px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.main-img-wrapper img{
+  width: 550px;
+}
+
+.about-us, .contacts{
+  font-family: cursive;
+  padding: 0 10%;
+  color: #fff;
+}
+
+.about-us p, .contacts p{
+  padding-bottom: 10px;
+}
