@@ -122,3 +122,18 @@ body{
 .about-us p, .contacts p{
   padding-bottom: 10px;
 }
+
+.social-buttons{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+.social-buttons a{
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.social-buttons i.fa{
+  font-size: 42px;
+}
