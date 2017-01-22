@@ -146,11 +146,19 @@ body{
   }
 }
 
-@media (max-width: 639px){
+@media (max-width: 1023px){
   .social-buttons{
     position: relative;
     text-align: center;
     bottom: 0px;
     right: 0px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 639px){
+  .main-img-wrapper img{
+    width: 100%;
   }
 }
