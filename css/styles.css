@@ -161,10 +161,19 @@ body{
     margin-top: 25px;
     margin-bottom: 20px;
   }
+
+  .about-us, .contacts{
+    padding: 0px 5%;
+  }
+
 }
 
 @media (max-width: 639px){
   .main-img-wrapper img{
     width: 100%;
+  }
+
+  .about-us, .contacts{
+    font-size: 14px;
   }
 }
