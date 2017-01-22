@@ -97,7 +97,7 @@ html{
 }
 
 body{
-    background: url('../img/kraft_paper.jpg') no-repeat center center;
+    background: #c2a070 url('../img/kraft_paper.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
