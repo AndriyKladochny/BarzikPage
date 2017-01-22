@@ -132,6 +132,12 @@ body{
   cursor: pointer;
 }
 
+.social-buttons a,
+.social-buttons a:hover, 
+.social-buttons a:visited{
+  color: #000;
+}
+
 .social-buttons i.fa{
   font-size: 42px;
 }
