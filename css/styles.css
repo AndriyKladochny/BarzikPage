@@ -109,6 +109,10 @@ body{
   text-align: center;
 }
 
+#wrapper p{
+  padding-bottom: 10px;
+}
+
 .main-img-wrapper img{
   width: 550px;
 }
@@ -117,10 +121,6 @@ body{
   font-family: cursive;
   padding: 0 10%;
   color: #fff;
-}
-
-.about-us p, .contacts p{
-  padding-bottom: 10px;
 }
 
 .social-buttons{
@@ -136,4 +136,14 @@ body{
 
 .social-buttons i.fa{
   font-size: 42px;
+}
+
+@media (min-width: 1366px) {
+  .main-img-wrapper img {
+    width: 800px;
+  }
+  
+  #wrapper p{
+    font-size: 20px;
+  }
 }
