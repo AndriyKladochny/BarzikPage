@@ -169,6 +169,10 @@ body{
 }
 
 @media (max-width: 639px){
+  #wrapper{
+    padding-top: 20px;
+  }
+
   .main-img-wrapper img{
     width: 100%;
   }
