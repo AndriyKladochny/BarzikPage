@@ -104,8 +104,6 @@ body{
 
 #wrapper{
   padding-top: 40px;
-  width: 100%;
-  height: 100%;
   text-align: center;
 }
 
@@ -145,5 +143,14 @@ body{
 
   #wrapper p{
     font-size: 20px;
+  }
+}
+
+@media (max-width: 639px){
+  .social-buttons{
+    position: relative;
+    text-align: right;
+    bottom: 0px;
+    right: 0px;
   }
 }
